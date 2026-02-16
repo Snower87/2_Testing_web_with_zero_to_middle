@@ -1,0 +1,25 @@
+3.1 Установка и настройка Selenium
+
+Создайте простой скрипт Python для проверки установки Selenium и веб-драйвера:
+
+from selenium import webdriver
+
+# Укажите путь к веб-драйверу, если он не добавлен в PATH
+# driver = webdriver.Chrome(executable_path="/path/to/chromedriver")
+
+# Автоматически находит chromedriver, если он в PATH
+driver = webdriver.Chrome()
+
+driver.get("https://www.google.com")
+print(driver.title)
+driver.quit()
+
+
+= Headless режим: Для запуска тестов без открытия окна браузера можно использовать headless режим. Например, для Chrome: =
+
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+
+chrome_options = Options()
+chrome_options.add_argument("--headless")
+driver = webdriver.Chrome(options=chrome_options)
