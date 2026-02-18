@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1753b0b0-86a1-4a0f-b779-dcadf761e696" name="Changes" comment="change branches at ci.yml">
-      <change beforePath="$PROJECT_DIR$/conspect/конспект.docx" beforeDir="false" afterPath="$PROJECT_DIR$/conspect/конспект.docx" afterDir="false" />
+    <list default="true" id="1753b0b0-86a1-4a0f-b779-dcadf761e696" name="Changes" comment="add test and check run ci-cd actions at github">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +97,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771309598932</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add test and check run ci-cd actions at github">
+      <option name="closed" value="true" />
+      <created>1771310421310</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1771310421310</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -105,7 +113,8 @@
     <MESSAGE value="4.2 Написание тестов с использованием Pytest" />
     <MESSAGE value="6.1 Настройка автоматического запуска тестов. Запуск тестов в CI/CD" />
     <MESSAGE value="change branches at ci.yml" />
-    <option name="LAST_COMMIT_MESSAGE" value="change branches at ci.yml" />
+    <MESSAGE value="add test and check run ci-cd actions at github" />
+    <option name="LAST_COMMIT_MESSAGE" value="add test and check run ci-cd actions at github" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
